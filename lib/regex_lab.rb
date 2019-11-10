@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
  string = " afoot Excellent incredible Absolute unreal Inconceivable octopus"
- p string =~ // 
+ p string =~ /b[AaEeIiOoUu]/ 
  
  word_breakdown = words.scan(/[aeiou]/)
 end
