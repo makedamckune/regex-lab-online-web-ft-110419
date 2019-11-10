@@ -1,9 +1,6 @@
 def starts_with_a_vowel?(word)
  string = " afoot Excellent incredible Absolute unreal Inconceivable octopus"
- p string =~ /b[AaEeIiOoUu]/ 
- 
- end
-
+ p string.to_letter(:scan, //
 def words_starting_with_un_and_ending_with_ing(text)
 
 end
