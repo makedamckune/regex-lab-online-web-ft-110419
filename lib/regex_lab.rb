@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
- words = "At, Evolve, Everyday, Shame, Introduce"
+ string = "At, Evolve, Everyday, Shame, Introduce"
+ p string = 
  
  word_breakdown = words.scan(/[aeiou]/)
 end
