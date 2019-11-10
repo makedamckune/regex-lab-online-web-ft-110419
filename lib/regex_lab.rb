@@ -2,8 +2,7 @@ def starts_with_a_vowel?(word)
  string = " afoot Excellent incredible Absolute unreal Inconceivable octopus"
  p string =~ /b[AaEeIiOoUu]/ 
  
- word_breakdown = words.scan(/[aeiou]/)
-end
+ end
 
 def words_starting_with_un_and_ending_with_ing(text)
 
